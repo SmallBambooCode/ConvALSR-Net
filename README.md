@@ -48,8 +48,8 @@ python test_loveda.py -c ./config/loveda/convlsrnet.py -o ./fig_results/convlsrn
 
 ## Acknowledgement
 
-Our training scripts come from [ConvLSR-Net++](https://github.com/stdcoutzrh/ConvLSR-Net) which is based on [GeoSeg](https://github.com/WangLibo1995/GeoSeg). Thanks for the author's open-sourcing code.
-- [ConvLSR-Net++](https://github.com/stdcoutzrh/ConvLSR-Net)
+Our training scripts come from [ConvLSR-Net](https://github.com/stdcoutzrh/ConvLSR-Net) which is based on [GeoSeg](https://github.com/WangLibo1995/GeoSeg). Thanks for the author's open-sourcing code.
+- [ConvLSR-Net](https://github.com/stdcoutzrh/ConvLSR-Net)
 - [GeoSeg(UNetFormer)](https://github.com/WangLibo1995/GeoSeg)
 - [pytorch lightning](https://www.pytorchlightning.ai/)
 - [timm](https://github.com/rwightman/pytorch-image-models)
