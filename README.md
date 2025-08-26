@@ -6,15 +6,9 @@ Our model code will be uploaded soon.
 
 Please follw the [GeoSeg](https://github.com/WangLibo1995/GeoSeg) to preprocess the LoveDA, Potsdam and Vaihingen dataset.
 
-Please follow the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#isaid) to preprocess the iSAID dataset. 
-
 ## Training
 
 "-c" means the path of the config, use different **config** to train different models.
-
-```shell
-python train_supervision.py -c ./config/isaid/convlsrnet.py
-```
 
 ```shell
 python train_supervision_dp.py -c ./config/potsdam/convlsrnet.py
@@ -29,11 +23,6 @@ python train_supervision_dp.py -c ./config/loveda/convlsrnet.py
 ```
 
 ## Testing
-
-**iSAID** 
-```shell
-python test_isaid.py -c ./config/isaid/convlsrnet.py -o ./fig_results/isaid/convlsrnet_isaid/  -t "d4"
-```
 
 **Vaihingen**
 ```shell
